@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1963673_1w9zk9u7uh2.eot?t=1595519583501'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1963673_1w9zk9u7uh2.eot?t=1595519583501#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOoAAsAAAAAB6QAAANZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDDIJjATYCJAMMCwgABCAFhG0HNhupBsguIScbekSjRDItkMDTG/kFhitzGC+Cr+HPfXf3a3WgSnXguwfFoMChkLhuUWAsHo8wNcVFp/vYzJvXlyk+wMx7/wRzmSxYpJn+cZqueYV0XJ9g3cAWKOAC0wgLgP9SMPRXT3ZHSUE0rTBBi5JWE+mPe6dNS2A+oFz+HrV9L426AOOAAtsT24CBFUiC3jK82qVw0KcJNM0q5NjrHhwPwhRkUiDOTKqAsIyuNFSHulCtWFnEA1RPd3wBwH3w/fgLyiOMpJKRmQenXTpo/eH8dlxvP5BnADFdCPI6MtYAhTiujBwRo9QaUdPkpebiqiKkqaI/AW6xVfqHRxJEFalsgyVIJ344OZ4IxzF51SdlUEUd54BHxDZ2z4rcbI6kvKiozsXm9cljNi5J0jHVET2+NH/ssXWuDUnjDxzLnLD58MGtEeLf52Dy1hktqHFqzLNnWN5/PdHrc8mRiPZTZ0k7pyr2zOaKS6uYAHx9otXnPX8+4elTlDDzGDs+RNMNz57NXZeCNy1dxoBmb6j6nDoreRaiyfTGjcmTt/8nCvw9bjs61zv5Mlp6uqTzbWfJ6SLPoWdNzsWLnY88jeVvKt/sjbtpm261OTB2tK3NRej3rW58VnzMrdZ4aa2vj741ukLeV5ixT7YxBq9iTtr3b9IJinjsSYn/kSBQH/FY2q7v98XtFMHKdmL+LUFgaGLF+DBy6RKKvxCPpP5gAP+T5BNJWaTi9q/6jfN/E8yIbfyPBXxreTwDqO5l6hIy8WOIji3Foog3FwPnuJPN9sm3jWJUEfyOWhh6N1ye3Hwm1E0SSGpmIKubMxbrGlS0bEBV3SY0repZ3zLCiKI0sGIlgtB3GpKuZ8j67hqL9S1UTH2Hqn6I0HQYiTu2LIQZ0cGIwokO1bnQ1Pw+g/l5RFg9llDbo7A0FdgxYZYZhWXFpflsD/ERNsUcaxYt59yABvN7YTc6j3g8fhhg/hGi8WIX54H6khKj6kXFmt8LIuxiCAVH6CDVXJBJ4+djeJ25iMLnxyIom4eCNTQ1PTGCsZi9Q2WKlXYw9vC+Tk23collFqocxxkgA+PnBXWjEOGhKT8oUD1sBKHhirkGJALqlUA7oytfvLzofb9d0EQOy5EiR1FOFdWWLb9t2QAAAAAA') format('woff2'),
+  url('//at.alicdn.com/t/font_1963673_1w9zk9u7uh2.woff?t=1595519583501') format('woff'),
+  url('//at.alicdn.com/t/font_1963673_1w9zk9u7uh2.ttf?t=1595519583501') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1963673_1w9zk9u7uh2.svg?t=1595519583501#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fabu:before {
+  content: "\e6ab";
+}
+
+.icon-sousu:before {
+  content: "\e621";
+}

@@ -1,0 +1,57 @@
+.ctrl{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+}
+
+.ctrl-item{
+  flex: 1;
+  text-align: center;
+  color: rgba(40, 47, 60, 0.8);
+  font-size: 26rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctrl-item .icon{
+  margin-right: 12rpx;
+  font-size: 32rpx;
+}
+
+.ctrl-item text{
+  font-size: 32rpx;
+}
+
+.comment-content{
+  margin: 15rpx;
+  width: 650rpx;
+  
+  box-sizing: border-box;
+}
+
+.send{
+  background-color: red;
+  color: white;
+  margin-left: 300px;
+  font-size: 20rpx;
+}
+
+.share-btn{
+  background-color: #fff;
+  color: rgba(40, 47, 60, 0.8);
+  padding: 0;
+  height: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn::after{
+  display: none;
+}

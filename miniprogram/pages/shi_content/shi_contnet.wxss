@@ -1,0 +1,32 @@
+/* miniprogram/pages/article_content/article_content.wxss */
+
+.rich{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.line{
+  margin: 10px;
+  widows: 90px;
+  height:2rpx;
+  background:#aaa;
+  }
+
+.title{
+
+  font-style: bloder;
+  font-size: larger;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+rich-text .media-wrap{
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  height: auto!important;
+  width: auto!important;
+}

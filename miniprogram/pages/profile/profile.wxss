@@ -1,0 +1,77 @@
+page{
+  background-color: white;
+}
+
+.profile-header{
+  background-image: url(https://6377-cwx-t0m9v-1302672746.tcb.qcloud.la/1af16019d9ac0475f338dcafa1ff7284.jpg?sign=db80182fbc6b45573fa01cd3849ff899&t=1596898121);
+  background-size: cover;
+  height: 480rpx;
+  display: flex;
+  justify-content: center;
+  flex: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow:0 0 3px rgb(0, 0, 0,0.3);
+  
+}
+
+
+
+
+
+.avatar-url{
+  
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  overflow: hidden;
+  border: 6rpx solid #fff;
+  border-radius: 50%;
+  float: left;
+  
+}
+
+
+
+
+.avatar-url1{
+  
+  float: left;
+  
+  
+}
+
+
+.nav-item1{
+  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 15px;
+  
+}
+
+.nav-item2{
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+
+i{
+  color: red;
+}
+
+text{
+  margin-left: 15px;
+  
+  
+  color: #b3b1b1;
+  
+}
+
+.content{
+  padding: 10px;
+  
+}

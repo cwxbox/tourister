@@ -1,0 +1,2 @@
+<text class="title">{{article.tourist_title}}</text>
+<rich-text class="rich"  nodes="{{article.tourist_article}}"></rich-text>

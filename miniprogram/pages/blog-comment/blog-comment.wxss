@@ -1,0 +1,66 @@
+.comment-list{
+  padding: 15rpx;
+  background-color: #fff;
+  width: 720rpx;
+  margin-bottom: 60rpx;
+}
+
+
+.container{
+  
+}
+
+.blog-card{
+  background-color: white;
+}
+
+
+.blog{
+  
+}
+
+
+.comment-title{
+  display: flex;
+}
+
+.tab-item{
+  margin-top: 20rpx;
+  background-color: white;
+  padding-left: 20rpx;
+  font-size: larger;
+  padding-top: 10rpx;
+  color: #939393;
+}
+
+
+.commment-portrait{
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+ margin-left: 10rpx;
+}
+.comment-nickname{
+  margin-top: 30rpx;
+}
+
+.comment-content{
+  padding: 10rpx;
+}
+.comment-time{
+  font-size: 24rpx;
+  color: #939393;
+  margin-left: 10rpx;
+}
+
+
+
+.bottom-ctrl{
+  bottom: 0rpx;
+  width: 800rpx;
+  height: 80rpx;
+  position: fixed;
+}

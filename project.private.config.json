@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/kinds/kinds",
+          "pathName": "pages/kinds/kinds",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/old/old",
+          "pathName": "pages/old/old",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/xiaoji/xiaoji",
+          "pathName": "pages/xiaoji/xiaoji",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

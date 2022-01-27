@@ -1,0 +1,164 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #000000;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #807f7f;
+}
+
+.img{
+  width:100rpx; 
+  height:100rpx; 
+  border-radius:50%; 
+  overflow:hidden;
+  float: left;
+  margin: 20rpx;
+}
+
+.name{
+  float: left;
+  margin-top: 38rpx;
+  margin-left: 1rem;
+  font-size: large;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  height: 65rpx;
+  width: 550rpx;
+  border-color: #eee;
+}
+
+
+
+
+page{
+  background-color: #f3f0f0;
+}
+
+
+/* 盒子整体 */
+.box {
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+
+/* 内容盒子 */
+.box-content-one{
+  margin-top: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.3),
+  0px 0px 20px rgba(0,0,0,0.1) inset;
+}
+
+/* 图片 */
+.img {
+  width: 700rpx;
+  height: 440rpx;
+  position: relative;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display:inline-block;
+}
+
+/* 内容样式 */
+.content {
+  text-align:center;
+  padding-top: 30px;
+  border-radius:5px;  
+  padding-bottom: 40px;
+}
+
+/* 内容命名 */
+.content-name{
+  font-family: STKaiti;
+  text-align:center;
+  font-size: small;
+  color: #4d4a4ab7;
+  margin-bottom: 10px;
+}
+
+.box-content-two{
+  margin-top: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.little_title{
+  text-align:center;
+  font-size: small;
+  color: #4d4a4ab7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.time-name{
+  font-family: STKaiti;
+  font-size:large;
+  font-weight:bold;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+.time-content{
+  font-family: STKaiti;
+  color: #4d4a4ab7;
+  font-size:medium;
+  margin: 10px;
+  font-weight:bold;
+  margin-bottom: 10px;
+}
+
+.time-img{
+  margin: 10px;
+  width: 700rpx;
+  height: 440rpx;
+  position: relative;
+  border-radius: 15px;
+  display:inline-block;
+}
+
+.old-text{
+  text-align:center;
+  font-size: small;
+  color: #4d4a4ab7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-text{
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

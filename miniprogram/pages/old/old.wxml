@@ -1,0 +1,80 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+</view>
+
+<!-- 时记开始 -->
+<view hidden="{{currentTab!==0}}">
+  <view class="all" data-id="{{item._id}}" wx:for="{{tourist_list}}" bindtap="goDetail">
+    <view class="box"  >
+
+      <view class="box-content-two">
+
+        <!-- 副标题开始 -->
+        <view class="little_title">
+          <text>- 时记 -</text>
+        </view>
+        <!-- 副标题结束 -->
+
+        <!-- 名字开始 -->
+        <view class="time-name">
+          <text>{{item.tourist_title}}</text>
+        </view>
+        <!-- 名字结束 -->
+        <view class="time-content">
+          <text>{{item.tourist_people}}</text>
+        </view>
+        <!-- 内容开始 -->
+        <view class="time-content">
+          <text>{{item.index_shortcontent}}</text>
+        </view>
+        <!-- 内容结束 -->
+        <!-- 图片开始 -->
+        <image class="time-img" src="{{item.tourist_img}}" />
+        <!-- 图片结束 -->
+      </view>
+
+    </view>
+  </view>
+</view>
+<!-- 时记结束-end -->
+
+<!-- 小影开始 -->
+<view hidden="{{currentTab!==1}}">
+  <view class="all" data-dog="{{item._id}}" wx:for="{{movie_list}}">
+    <!-- 小影开始 -->
+    <view class="box">
+
+      <view class="box-content-two">
+
+        <!-- 副标题开始 -->
+        <view class="little_title" data-article="{{item.first}}">
+          <text>- 小影 -</text>
+        </view>
+        <!-- 副标题结束 -->
+
+        <!-- 名字开始 -->
+        <view class="time-name" data-article="{{item.first}}">
+          <text>{{item.tourist_title}}</text>
+        </view>
+        <!-- 名字结束 -->
+        <view class="time-content" data-article="{{item.first}}">
+          <text>{{item.tourist_people}}</text>
+        </view>
+        <!-- 内容开始 -->
+        <view class="time-content" data-article="{{item.first}}">
+          <text>{{item.index_shortcontent}}</text>
+        </view>
+        <!-- 内容结束 -->
+        <video class="time-img" id="myVideo" src="{{item.index_movie}}" show-center-play-btn='{{false}}'
+          show-play-btn="{{true}}" controls bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+          bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+
+      </view>
+
+    </view>
+    <!-- 小影结束 -->
+  </view>
+</view>
+<!-- 小影开始 -->

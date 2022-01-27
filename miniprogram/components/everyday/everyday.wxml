@@ -1,0 +1,8 @@
+<!--components/movie-card/movie-card.wxml-->
+<view class="all">
+
+<view class="small-title">
+<text class="">- 每 日 一 句 -</text>
+</view>
+<image class="picture" src="cloud://cwx-t0m9v.6377-cwx-t0m9v-1302672746/每日一句.png" bind:tap="onPreviewImage" ></image>
+</view>

@@ -1,0 +1,34 @@
+<view class="profile-header">
+<view class="avatar-url">
+<open-data type="userAvatarUrl"></open-data>
+</view>
+<!--<open-data  class="avatar-url1" type="userNickName"></open-data>-->
+</view>
+
+<view>
+  <view class="nav-item1">
+    <navigator class="content" url="/pages/profile_history/profile_history">
+      <i class="iconfont icon-shoucang-"></i>
+      <text>我的发现</text>
+     
+    </navigator>
+  </view>
+</view>
+
+
+<view>
+  <view class="nav-item2" bindtap='buttonTap'>
+    <navigator class="content">
+      <i class="iconfont icon-erweima"></i>
+      <text>小程序码</text>
+    </navigator>
+  </view>
+</view>
+
+<view class='container'>
+<modal  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+  <view>
+    <image style="width:244px ;margin-left:20px" class="image" src="../../images/gh_e750005a3c03_258.jpg" mode='aspectFill'></image>
+  </view>
+</modal>
+</view>

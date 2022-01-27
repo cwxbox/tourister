@@ -1,0 +1,3 @@
+<text class="title">{{article.title}}</text>
+<!-- <view class="line"></view> -->
+<rich-text class="rich"  nodes="{{article.content}}"></rich-text>

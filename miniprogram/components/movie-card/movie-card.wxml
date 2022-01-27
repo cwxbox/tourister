@@ -1,0 +1,13 @@
+<!--components/movie-card/movie-card.wxml-->
+<view class="all">
+
+<view class="small-title">
+<text class="">- 每 周 电 影 -</text>
+</view>
+
+
+<view class="wenzi"><text class="title">{{moviecard.title}}</text></view>
+
+
+<image class="picture" src="{{moviecard.picture}}"></image>
+</view>

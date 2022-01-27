@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/kinds/kinds",
+    "pages/article_content/article_content",
+    "pages/blog/blog",
+    "pages/profile/profile",
+    "pages/blog-edit/blog-edit",
+    "components/search/search",
+    "pages/blog-comment/blog-comment",
+    "pages/content/content",
+    "pages/shi_content/shi_contnet",
+    "pages/old/old",
+    "pages/xiaoji/xiaoji",
+    "pages/profile_history/profile_history"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "时旅",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "旅行",
+        "iconPath": "images/icon/tourist.png",
+        "selectedIconPath": "images/icon/tourist_select.png"
+      },
+      {
+        "pagePath": "pages/kinds/kinds",
+        "text": "分类",
+        "iconPath": "images/icon/kind.png",
+        "selectedIconPath": "images/icon/kind_select.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "发现",
+        "iconPath": "images/icon/communication.png",
+        "selectedIconPath": "images/icon/communication_select.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/icon/me.png",
+        "selectedIconPath": "images/icon/me_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,15 @@
+
+
+
+
+
+
+/* .blog-list{
+  margin-top: 100rpx;
+
+} */
+
+.blog-panel{
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}

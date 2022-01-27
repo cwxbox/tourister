@@ -1,0 +1,104 @@
+<!-- 小记开始 -->
+<view class="box">
+
+  <view class="box-content-one">
+
+    <!-- 图片开始 -->
+    <image class="img" src="{{index_artcle.index_image}}" />
+    <!-- 图片结束 -->
+
+    <!-- 内容开始 -->
+    <view class="content">
+      <text>{{index_artcle.index_content}}</text>
+    </view>
+    <!-- 内容结束 -->
+
+    <!-- 名字开始 -->
+    <view class="content-name">
+      <text>{{index_artcle.index_title}}</text>
+    </view>
+    <!-- 名字结束 -->
+  </view>
+
+</view>
+<!-- 小记结束 -->
+
+<!-- 时记开始 -->
+<view class="box" bindtap="goDetail">
+
+  <view class="box-content-two">
+
+    <!-- 副标题开始 -->
+    <view class="little_title">
+      <text>- 时记 -</text>
+    </view>
+    <!-- 副标题结束 -->
+
+    <!-- 名字开始 -->
+    <view class="time-name">
+      <text>{{index_tourist.tourist_title}}</text>
+    </view>
+    <!-- 名字结束 -->
+    <view class="time-content">
+      <text>{{index_tourist.tourist_people}}</text>
+    </view>
+    <!-- 内容开始 -->
+    <view class="time-content">
+      <text>{{index_tourist.index_shortcontent}}</text>
+    </view>
+    <!-- 内容结束 -->
+    <!-- 图片开始 -->
+    <image class="time-img" src="{{index_tourist.tourist_img}}" />
+    <!-- 图片结束 -->
+  </view>
+
+</view>
+<!-- 时记结束 -->
+
+<!-- 小影开始 -->
+<view class="box" >
+
+<view class="box-content-two">
+
+  <!-- 副标题开始 -->
+  <view class="little_title"  data-article="{{index_movie.first}}">
+    <text>- 小影 -</text>
+  </view>
+  <!-- 副标题结束 -->
+
+  <!-- 名字开始 -->
+  <view class="time-name"  data-article="{{index_movie.first}}">
+    <text>{{index_movie.tourist_title}}</text>
+  </view>
+  <!-- 名字结束 -->
+  <view class="time-content"  data-article="{{index_movie.first}}">
+    <text>{{item.tourist_people}}</text>
+  </view>
+  <!-- 内容开始 -->
+  <view class="time-content"  data-article="{{index_movie.first}}">
+    <text>{{index_movie.index_shortcontent}}</text>
+  </view>
+  <!-- 内容结束 -->
+  <video 
+      class="time-img"
+      id="myVideo" 
+      src="{{index_movie.index_movie}}" 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      controls
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video>
+  <!-- 图片开始 -->
+  <!-- <image class="time-img" src="{{index_tourist.tourist_img}}" /> -->
+  <!-- 图片结束 -->
+</view>
+
+</view>
+<!-- 小影结束 -->
+
+<!-- 往期回顾开始 -->
+<view view class="box-text" bindtap="goDetail_old">
+<text class="old-text">往期回顾</text>
+</view>
+<!-- 往期回顾结束 -->

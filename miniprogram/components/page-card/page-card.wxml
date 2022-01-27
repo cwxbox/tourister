@@ -1,0 +1,13 @@
+<!--components/movie-card/movie-card.wxml-->
+<view class="all">
+
+<view class="small-title">
+<text class="">- 每 周 一 文 -</text>
+</view>
+
+<image class="picture" src="{{pagecard.picture}}"></image>
+
+<view class="wenzi"><text class="title">{{pagecard.title}}</text></view>
+
+
+</view>
